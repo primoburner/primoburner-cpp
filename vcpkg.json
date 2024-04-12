@@ -1,0 +1,10 @@
+{
+  "dependencies": [
+    "argparse",
+    "cli11",
+    "fmt",
+    "spdlog",
+    "tabulate",
+    "indicators"
+  ]
+}

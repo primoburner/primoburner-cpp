@@ -1,0 +1,22 @@
+{
+  "default-registry": {
+    "kind": "git",
+    "baseline": "7032c5759f823fc8699a5c37d5f7072464ccb9a8",
+    "repository": "https://github.com/microsoft/vcpkg"
+  },
+  "registries": [
+    {
+      "kind": "artifact",
+      "location": "https://github.com/microsoft/vcpkg-ce-catalog/archive/refs/heads/main.zip",
+      "name": "microsoft"
+    },
+    {
+      "kind": "git",
+      "baseline": "46fa7b648f0e556b648fe32fd336b99951794c15",
+      "repository": "https://github.com/primosoftware/vcpkg-registry",
+      "packages": [
+        "cli11"
+      ]
+    }
+  ]
+}

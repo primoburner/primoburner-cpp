@@ -11,3 +11,8 @@ See [Download Core for Windows](./docs/download-primoburner-core-windows.md)
 #### Setup
 
 See [Setup for Windows](./docs/setup-windows.md)
+
+#### Build
+
+See [Build on Windows](./docs/build-windows.md)
+
