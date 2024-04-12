@@ -19,3 +19,15 @@ See [Build on Windows](./docs/build-windows.md)
 #### Run
 
 See [README](./samples/windows/README.md) in the `samples` subdirectory. 
+
+## macOS
+
+#### Download PrimoBurner Core
+
+See [Download Core on macOS](./docs/download-primoburner-core-mac.md)
+
+#### Setup
+
+See [Setup for macOS](./docs/setup-mac.md)
+
+#### 
