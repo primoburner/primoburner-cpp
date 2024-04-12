@@ -12,7 +12,7 @@ bin/
 
 vcpkg_installed/
 
-# AVBlocks SDK
+# PrimoBurner SDK
 sdk/
 
 # assets
