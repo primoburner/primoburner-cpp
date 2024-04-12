@@ -16,3 +16,6 @@ See [Setup for Windows](./docs/setup-windows.md)
 
 See [Build on Windows](./docs/build-windows.md)
 
+#### Run
+
+See [README](./samples/windows/README.md) in the `samples` subdirectory. 
