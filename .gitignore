@@ -1,0 +1,31 @@
+# Mac
+.DS_Store
+
+# Python
+.venv/
+
+# build
+build/
+bin/
+/-m64
+/null.d
+
+vcpkg_installed/
+
+# AVBlocks SDK
+sdk/
+
+# assets
+assets/
+package/
+
+# output
+output/
+
+# generators
+xcode/
+
+vs2017/
+vs2019/
+
+.env
