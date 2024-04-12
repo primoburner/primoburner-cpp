@@ -5,7 +5,7 @@ A command line tool for Blu-ray Disc (e.g. BD-R, BD-RE) formatting and data reco
 ### Set PATH to compiled programs 
 
 ```powershell
-# Intel
+# AMD / Intel
 $env:Path = "$( (pwd).Path )/bin/x64/;" + $env:Path 
 
 # ARM

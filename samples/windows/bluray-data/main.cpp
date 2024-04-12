@@ -39,19 +39,6 @@ int main(int argc, char *argv[])
     speedInfo.add_argument("--device-index").help("Index of the device to use.").required().scan<'i', int>();
     program.add_subparser(speedInfo);
 
-    // // Speed Info
-    // var speedInfoSubCommand = new Command("speed-info", "Show available write speeds. This depends on the media in the device");
-    // rootCommand.Add(speedInfoSubCommand);
-    
-    // speedInfoSubCommand.AddOption(deviceIndexOpt);
-    
-    // speedInfoSubCommand.SetHandler((deviceIndex) =>
-    // {
-    //     var app = new BurnerApp();
-    //     app.SpeedInfo(deviceIndex);
-    //     app.Dispose();
-    // }, deviceIndexOpt);
-
     // Format
     argparse::ArgumentParser format("format");
     format.add_description("Format disc in device specified by --device-index");
