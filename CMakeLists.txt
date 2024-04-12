@@ -14,7 +14,7 @@ add_subdirectory(samples samples)
 string(TOLOWER ${CMAKE_SYSTEM_NAME} OS)
 
 if(OS STREQUAL "windows")
-    # copy avblocks
+    # copy primoburner
     set(SDK_LIB_PATH ${PROJECT_SOURCE_DIR}/sdk/lib/${PLATFORM})
 
     # Ninja

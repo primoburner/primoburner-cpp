@@ -30,4 +30,10 @@ See [Download Core on macOS](./docs/download-primoburner-core-mac.md)
 
 See [Setup for macOS](./docs/setup-mac.md)
 
-#### 
+#### Build
+
+See [Build on macOS](./docs/build-mac.md)
+
+#### Run
+
+See [README](./samples/darwin/README.md) in the `samples` subdirectory. 
