@@ -37,3 +37,23 @@ See [Build on macOS](./docs/build-mac.md)
 #### Run
 
 See [README](./samples/darwin/README.md) in the `samples` subdirectory. 
+
+## Linux
+
+#### Download PrimoBurner Core
+
+See [Download Core on Linux](./docs/download-primoburner-core-linux.md) 
+
+#### Setup
+
+See [Setup for Linux](./docs/setup-linux.md)
+
+#### Build
+
+See [Build on Linux](./docs/build-linux.md)
+
+#### Run
+
+See [README](./samples/linux/README.md) in the `samples` subdirectory. 
+
+## 
