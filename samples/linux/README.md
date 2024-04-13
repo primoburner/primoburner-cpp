@@ -1,4 +1,4 @@
-# Samples - C++ / macOS
+# Samples - C++ / Linux
 
 ## Data
 
