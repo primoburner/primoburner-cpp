@@ -20,16 +20,25 @@ Make sure you have done the [setup for Windows](./setup-windows.md)
 
 ### Build
 
+#### x64
+
 ```powershell
 New-Item -Force -Path ./build/debug_x64 -ItemType Directory 
 pushd ./build/debug_x64
 
-# for AMD / Intel x64
 cmake --preset Debug_x64 -G 'Ninja' ../..
+ninja
 
-# for ARM arm64
+popd
+```
+
+#### arm64
+
+```powershell
+New-Item -Force -Path ./build/debug_arm64 -ItemType Directory 
+pushd ./build/debug_arm64
+
 cmake --preset Debug_arm64 -G 'Ninja' ../..
-
 ninja
 
 popd
@@ -37,11 +46,19 @@ popd
 
 ### Clean
 
+#### x64
+
 ```powershell
 pushd ./build/debug_x64
-
 ninja clean
+popd
+```
 
+#### arm64
+
+```powershell
+pushd ./build/debug_arm64
+ninja clean
 popd
 ```
 
@@ -51,12 +68,6 @@ popd
 
 ```powershell
 . .\configure.ps1
-```
-
-### Install Packages
-
-```bash
-vcpkg install
 ```
 
 ### Generate Visual Studio 2022 project
