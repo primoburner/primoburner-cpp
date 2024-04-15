@@ -68,6 +68,12 @@ popd
 
 ## Build with Xcode
 
+#### Configure
+
+```bash
+source ./configure.sh
+```
+
 ### Generate Xcode project
 
 ```bash
