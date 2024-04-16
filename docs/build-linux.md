@@ -18,6 +18,8 @@ source ./configure.sh
 
 #### Build
 
+##### x64
+
 ```bash
 mkdir -p ./build/debug_x64
 pushd ./build/debug_x64
@@ -28,10 +30,33 @@ ninja
 popd
 ```
 
+##### arm64
+
+```bash
+mkdir -p ./build/debug_arm64
+pushd ./build/debug_arm64
+
+cmake --preset Debug_arm64 -G 'Ninja' ../..
+ninja
+
+popd
+```
+
 #### Clean
+
+##### x64
 
 ```bash
 pushd ./build/debug_x64
 ninja clean
 popd
 ```
+
+##### arm64
+
+```bash
+pushd ./build/debug_arm64
+ninja clean
+popd
+```
+

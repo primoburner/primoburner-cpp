@@ -26,7 +26,7 @@ sudo apt install ninja-build
 
 ```bash
 git clone https://github.com/microsoft/vcpkg "$HOME/vcpkg"
-cd $HOME/vcpkg && ./bootstrap-vcpkg.sh
+pushd $HOME/vcpkg && ./bootstrap-vcpkg.sh && popd
 ```
 
 ### Visual Studio Code
